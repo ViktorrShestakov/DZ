@@ -1,12 +1,13 @@
 fun main(){
     var n=0
-    while (true){
-        when(readln()){
+    var stroka= readln()
+    while (stroka!="exit"){
+        when(stroka){
             "increase"->n++
             "decrease"->n--
-            "exit"->break
             else-> println("Ошибка! Команда не найдена")
         }
+        stroka= readln()
     }
     println(n)
 }

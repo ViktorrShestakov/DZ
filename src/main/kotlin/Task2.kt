@@ -6,7 +6,7 @@ fun main() {
             println(i)
         }
     } else{
-        for (i in a1 downTo  a2) {
+        for (i in a2..a1) {
             println(i)
         }
     }
